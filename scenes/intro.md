@@ -100,7 +100,7 @@ n3: Então, antes de começarmos, como *você* gostaria de ler?
 
 # intro-start-2
 
-n3: Ótimo! Note: Você sempre poderá mudar as opções clicando o icone ⚙ logo abaixo. Além disso, o jogo salvará seu progresso em cada capítulo!
+n3: Ótimo! Note: Você sempre poderá mudar as opções clicando o ícone ⚙ logo abaixo. Além disso, o jogo salvará seu progresso em cada capítulo!
 
 n3: Agora, vamos começar nossa estória... 
 
