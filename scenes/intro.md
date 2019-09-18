@@ -92,7 +92,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Bem-vindo! Isto é não é bem um "jogo", mas uma estória interativa. Espero que você goste de ler, troxa!
+n3: Bem-vindo! Isto não é bem um "jogo", mas uma estória interativa. Espero que você goste de ler, troxa!
 
 n3: Então, antes de começarmos, como *você* gostaria de ler?
 
