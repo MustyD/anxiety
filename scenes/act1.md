@@ -1036,7 +1036,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Você quer que sua coluna virew um pretzel?! Pare de ficar que nem corcunda sobre a tela!
+b: Você quer que sua coluna vire um pretzel?! Pare de ficar que nem um corcunda sobre a tela!
 
 ```
 bb({body:"meta"});
