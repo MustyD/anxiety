@@ -1367,7 +1367,7 @@ b: Vai ficar tudo bem.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Como seu leal lobo-guardão, eu sempre estarei a procura do perigo, fazendo meu melhor para manter você em segurança.
+b: Como seu leal lobo-guardião, eu sempre estarei a procura do perigo, fazendo meu melhor para manter você em segurança.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
