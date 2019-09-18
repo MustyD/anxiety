@@ -96,6 +96,7 @@
 	<!-- CONTENT NOTES -->
 	<div id="content_notes">
 
+		<!-- TRANSLATE THIS -->
 		<p style="margin-top: 0.6em;">
 			<i style="color:#ff4040">Aventuras com a Ansiedade</i> é sobre, bem, ansiedade.
 		</p>
@@ -125,6 +126,7 @@
 	<div id="about"><!-- about=yes-->
 		<div id="about_words">
 		
+			<!-- TRANSLATE THIS -->
 			<div style="font-size: 40px; margin-top: 42px; line-height: 30px;">
 				<a href="https://ncase.me/mental-health" target="_blank">Recursos</a><br><br>
 				de saúde mental
@@ -137,16 +139,15 @@
 			<div style="font-size: 25px; text-align: left; width: 170px;
 						margin-left: 165px; line-height: 25px; margin-top: 10px;">
 				
+				<!-- TRANSLATE ALL THIS -->
 				<div>
 					Jogar mais das
 					<a href="https://ncase.me" target="_blank">minhas coisa</a>
 				</div>
-
 				<div style="margin-top: 32px;">
 					Tacar moedas<br>em mim
 					<a href="https://www.patreon.com/ncase" target="_blank">no Patreon</a>
 				</div>
-
 				<div style="margin-top: 28px;">
 					Gratificar seus tímpanos com a
 					<a href="https://chezmonplaisir.bandcamp.com/album/anxiety" target="_blank">trilha sonora de Monplaisir</a>
@@ -174,11 +175,11 @@
 		</div>
 		<div style="clear:both"></div>
 		<span id="volume_options">
-			<div>Volume:</div>
+			<div>Volume:</div> <!-- TRANSLATE -->
 			<input id="volume_slider" type="range" min=0 max=1 value=1 step="0.01"/>
 		</span>
 		<div id="options_ok">
-			ok <div class="mini-icon" pic="ok" style="top: 3px;"></div>
+			ok <div class="mini-icon" pic="ok" style="top: 3px;"></div> <!-- TRANSLATE -->
 		</div>
 	</div>
 
@@ -193,6 +194,8 @@
 <!-- - - - - - - - - - - - - - - - - - -->
 <!-- SHTUFF IN THE CORNER - - - - - - - -->
 <!-- - - - - - - - - - - - - - - - - - -->
+
+<!-- TRANSLATE ALL OF THIS -->
 
 <div class="corner-text" id="topleft">
 Criado por
@@ -223,20 +226,29 @@ Você já está livre para reutilizar &amp; remixar tudo para qualquer uso!
 </div>
 
 <div class="corner-text" id="topright">
-Compartilhar em um app de ansiedade:
+Compartilhar em um app-de-ansiedade:
+<span id="sharing_title">
+	Aventuras com a Ansiedade!
+</span>
+<span id="sharing_desc">
+	Acabei de jogar um jogo narrativo sobre um ser humano e sua ansiedade! Você joga *como* a ansiedade. 😱
+</span>
 <div id="share">
-	<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fncase.me%2Fanxiety%2F" target="_blank" class="no_deco">
+	<a id="share_link_fb" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fncase.me%2Fanxiety%2F" target="_blank" class="no_deco">
 		<div id="share_fb"></div>
 	</a>
-	<a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fncase.me%2Fanxiety%2F&text=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
+	<a id="share_link_tw" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fncase.me%2Fanxiety%2F&text=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
 		target="_blank" class="no_deco">
 		<div id="share_tw"></div>
 	</a>
-	<a href="mailto:?subject=Adventures%20with%20Anxiety!&body=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
+	<a id="share_link_em" href="mailto:?subject=Adventures%20with%20Anxiety!&body=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
 		target="_blank" class="no_deco">
 		<div id="share_em"></div>
 	</a>
 </div>
+<br>
+Para o seu prazer de compartilhamento:<br>
+<a href="sharing" target="_blank">Videos &amp; Thumbnails</a>
 </div>
 
 <div class="corner-text" id="bottomright">
@@ -270,6 +282,7 @@ Compartilhar em um app de ansiedade:
 <script src="scripts/game/Options.js"></script>
 <script src="scripts/game/About.js"></script>
 <script src="scripts/game/ContentNotes.js"></script>
+<script src="scripts/game/Sharing.js"></script>
 
 <!-- INTRO -->
 <script src="scripts/intro/Intro_SceneSetup.js"></script>
