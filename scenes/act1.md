@@ -1258,7 +1258,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ Peitos, rola e ^an^al!-
+b: ♫ Peitos, r^ol^a e ^an^al!-
 
 (...1000)
 
@@ -1267,7 +1267,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ P^UT^A-MON! TEMOS QUE PEG-
+b: ♫ PU^TA^-MON! TEMOS QUE PEG-
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1425,7 +1425,7 @@ bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^FODA^.*
+h: *F^OD^A.*
 
 `hong({body:"2_you"});`
 
