@@ -1098,7 +1098,7 @@ b: E se *ambos* somos irracionais, então nunca descobriremos como ser felizes e
 
 `bb({body:"scream_a_1"})`
 
-b: b: AHH SOMOS TÃO QUEBRADOS!! TÃO QUEBRADOS TÃO QUEBRADOS TÃO QUEBRADOS--
+b: AHH SOMOS TÃO QUEBRADOS!! TÃO QUEBRADOS TÃO QUEBRADOS TÃO QUEBRADOS--
 
 ```
 music(null);
