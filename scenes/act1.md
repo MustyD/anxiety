@@ -67,11 +67,11 @@ b: Eles nos farão quebrar seu celular ao lhe dar um ataque de pânico!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: Eles não vão deixar a gente bater na dona da festa!
+b: Eles não vão deixar a gente bater na anfitriã da festa!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: Eles vão fazer a gente bater na simpática dona anti-herói da festa!
+b: Eles vão fazer a gente bater na simpática anfitriã anti-herói da festa!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
