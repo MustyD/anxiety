@@ -786,7 +786,7 @@ b: Dizendo, *ainda bem que aquela 'gente boa' foi se preocupar com coisas tipo '
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Agora o país é o nosso quarto, o reich como deveria ser!*
+b: *Agora o país é o nosso quarto, do reich que deveria ser!*
 
 `_.a2_attack_3 = "bad";`
 
