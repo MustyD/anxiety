@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, f^od^a né?
+a: Afe, f^od^a né?
 
 (#act2-preamble-end)
 
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, f^od^a né?
+a: Afe, f^od^a né?
 
 (#act2-preamble-end)
 
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, f^od^a né?
+a: Afe, f^od^a né?
 
 (#act2-preamble-end)
 
@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: É, nem sei! Eles não eram tão atraentes assim, mas eu pegava!
+s: É, nem sei! Nem era tão atraente assim, mas eu pegava!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -490,7 +490,7 @@ b: Lei dos Esquisitões, Seção 74.5: (1) Qualquer sujeito que ficar encarando 
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "UM GRANDE TARADO NOJENTO E IMUNDO"
+b: "UM MONSTRO TARADO NOJENTO E IMUNDO"
 
 ```
 _.a2_second_danger = 'law';
@@ -716,13 +716,13 @@ sfx("gravel");
 
 (...501)
 
-b: O sujeito "GRANDE TARADO NOJENTO E IMUNDO" será sentenciado a 72 horas em um daqueles pelourinhos medievais para humilhação em praça pública.
+b: O sujeito "MOSNTRO TARADO NOJENTO E IMUNDO" será sentenciado a 72 horas em um daqueles pelourinhos medievais para humilhação em praça pública.
 
 b: exceto no caso deles secretamente *gostarem* desse tipo de coisa.
 
 `bb({body:"scream_a_1"})`
 
-b: por serem UM GRANDE TARADO, NOJENTO, E IMUNDO
+b: por serem UM MONSTRO TARADO, NOJENTO, E IMUNDO
 
 `_.a2_attack_3 = "bad";`
 
@@ -746,7 +746,7 @@ b: Você está suando e seu coração está palpitando agressivamente?
 
 `bb({body:"scream_a_1"})`
 
-b: BOOM, VOCÊ ACABOU DE FALIR O SISTEMA PÚBLICO DE SAÚDE E MILHÕES MORREM EM SEGUIDA
+b: BOOM, VOCÊ ACABOU DE FALIR O SISTEMA PÚBLICO DE SAÚDE E MILHÕES MORREM IMEDIATAMENTE
 
 `_.a2_attack_3 = "bad";`
 
@@ -939,7 +939,7 @@ h: *Eu sou amável. Eu sou do bem. Eu sou inteligente. Eu sou apreciável. Eu so
 
 [Cê sabe que afirmações assim foram *desprovadas?*](#act2d_disproven)
 
-[aimeudeus não atribua tosquisses à indigenas](#act2d_racist)
+[aimeudeus não atribua lorotas à indigenas](#act2d_racist)
 
 # act2d_disproven
 
@@ -961,7 +961,7 @@ b: Wood 2009, Psychological Science. Pesquisa lá no Google Scholar, humano,
 
 `bb({body:"scream_b_1"})`
 
-b: E PARE DE ESPALHAR DESINFORMAÇÃO CIENTÍFICA
+b: E PARE DE ESPALHAR DESINFORMAÇÃO PSEUDOCIENTÍFICA
 
 ```
 hong({body:"attacked"});
@@ -1218,7 +1218,7 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Parece que você se prendeu em uma briga interna, jovem.
+r: Parece que você se perdeu em uma briga interna, jovem.
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1232,7 +1232,7 @@ publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: Você estava, uh, falando sobre {{_.a2_hoodie_callback}} ou algo assim com seu moletom.
+r: Você estava, uh, falando com seu moletom sobre {{_.a2_hoodie_callback}} ou algo assim.
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1248,7 +1248,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: meu deus como estou uma bagunça.
+h2: meu deus sou uma bagunça.
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1325,7 +1325,7 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: Minha própria mistura especial. É um pouquinho mais forte que... bem, qualquer coisa legalizada.
+r: Receita especial própria. É um pouquinho mais forte que... bem, qualquer coisa legalizada.
 
 ```
 publish("act2",["party_hunter",12]);
@@ -1347,7 +1347,7 @@ publish("hp_show");
 
 [Ai meu Deus.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Isso é um péssimo mecanismo de lidar com as coisas.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Isso é uma péssima forma de lidar com dificuldades.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [Não aceite bebida de estranhos.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1390,9 +1390,9 @@ h: Um sabor da cabeça-aos-pés de "cale essa mente aí," com um titinho de "nun
 
 b: Isso é ruim, humano. Isso é muito, muito ruim.
 
-[Isso é *literalmente* como vício começa.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[Isso é *exatamente* como vício começa.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Eu *sabia* que a anfitriã era uma bagunça por dentro!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Eu *sabia* que a anfitriã era ruim da cabeça!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [E, eles podem ter drogado isso aí!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1507,14 +1507,14 @@ setTimeout(function(){
 
 h: MAS QUE ^MERDA^ FOI AQUELA
 
-b: Desculpe-me. Eu tive que lhe mostrar a visão das consequências.
+b: Desculpe-me. Eu tive que mostrar as consequências.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
 h: EU PUDE *VER* MEU PRÓPRIO CORPO. EU PUDE *SENTIR* A SENSAÇÃO DE BATER AS BOTAS.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: EU PUDE *VER* O OLHAR DE DESGOSTO DE TODO MUNDO. EU PUDE *OUVIR* AS COISAS RUINS QUE DISSERAM.
+h: EU PUDE *VER* O OLHAR DE DESGOSTO DE TODO MUNDO. EU PUDE *OUVIR* AS COISAS HORRÍVEIS QUE DISSERAM.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
@@ -1523,9 +1523,9 @@ h: EU PUDE *OUVIR* AS COSTELAS QUEBRANDO. EU PUDE *SENTIR* O GOSTO DE SANGUE NO 
 
 b: Me desculpe, humano.
 
-n: *ACABE COM ELES*
+n: *ACABE COM ELE*
 
-[{LUTAR: Espanque a anfitriã.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{LUTAR: Soque a anfitriã.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [{FUGIR: Vamos sair daqui.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1543,7 +1543,7 @@ b: Soque aquela imbecil! Apague ela de vez!
 
 `bb({ body:"final_1" });`
 
-b: PORRADA NELES PORRADA NELES PORRADA NELES PORRADA NELES --
+b: PORRADA PORRADA PORRADA PORRADA PORRADA PORRADA PORRADA --
 
 `_.a2_ending = "fight";`
 
@@ -1551,7 +1551,7 @@ b: PORRADA NELES PORRADA NELES PORRADA NELES PORRADA NELES --
 
 # act2j_flight
 
-b: Eu *sabia* que todos estes festejeiros eram doentes. Eles apagam a dor com coisas horríveis!
+b: Eu *sabia* que todos estes foliões eram doentes. Eles apagam a dor com coisas horríveis!
 
 `bb({ body:"yell_1" });`
 
@@ -1559,7 +1559,7 @@ b: E eles estão tentando enganar você para fazer a mesma coisa! Eles estão co
 
 `bb({ body:"final_1" });`
 
-b: SAIA DAQUI SAIA DAQUI SAIA DAQUI SAIA DAQUI SAIA DAQUI SAIA DAQUI SAIA DAQUI --
+b: FUJA FUJA FUJA FUJA FUJA FUJA FUJA FUJA FUJA FUJA FUJA --
 
 `_.a2_ending = "flight";`
 
@@ -1639,7 +1639,7 @@ publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: ok tchau, ciao, adios, au revoir
+h2: ok tchau, bye, ciao, adios, au revoir
 
 r: O animal talvez tenha ganho por hoje, mas volte, irei misturar algo ainda mais forte só pra você!
 
@@ -1661,13 +1661,13 @@ r: *P^ut^a m^erd^a*. O animal ganhou hoje, não é?
 
 `publish("act2",["party_hunter",15]);`
 
-h2: não não, eu só, uh, tenho que correr na maratona. bem rápido.
+h2: não não, eu só, hã, tenho que correr na maratona. bem rápido.
 
 `publish("act2",["party_hunter",19]);`
 
 r: Chega aí próximo fim de semana, delícia. Irei misturar algo ainda mais forte só pra você.
 
-h2: ok obrigado tenho que vazar vazado vazei
+h2: ok obrigado tenho que vazar vazando vazei
 
 r: Eu e você, jovem, vamos mostrar para aquela besta quem manda!
 
