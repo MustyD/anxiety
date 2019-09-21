@@ -1353,7 +1353,7 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: Quero dizer, isso é o que terapeutas dizem, não é? Aceitar tgodas as suas emoções, até as negativas?
+h: Quero dizer, isso é o que terapeutas dizem, não é? Aceitar todas as suas emoções, até as negativas?
 
 ```
 bb({ eyes:"annoyed" });
