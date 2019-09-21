@@ -876,7 +876,7 @@ b: Mais algum pensamento, humano?
 
 [Eu concordo: vamos ajeitar nossa vida social.](#act4_alone_skills)
 
-[Eu outros gostam da gente, vamos descobrir?](#act4_alone_experiment)
+[Acho que outros gostam da gente, quer saber?](#act4_alone_experiment)
 
 [Eu te agradeço.](#act4_thanks) `_.thanks_for = "pertencer social";`
 
