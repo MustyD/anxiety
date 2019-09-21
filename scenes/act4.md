@@ -910,7 +910,7 @@ b: Isso são algumas opções. Mas, sobre "aprender abilidades sociais"...
 
 [Isso não é meio *manipulador?*](#act4_alone_skills_manipulative)
 
-[Isso não facilitar que sejamos manipulados?*](#act4_alone_skills_manipulated)
+[Isso não facilitar que sejamos *manipulados?*](#act4_alone_skills_manipulated)
 
 [E se ainda der errado?](#act4_alone_skills_fail)
 
