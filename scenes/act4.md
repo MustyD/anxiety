@@ -1183,7 +1183,7 @@ b: Mais algum pensamento, humano?
 
 [Então somos quebrados. Vamos aceitar isso.](#act4_bad_accept)
 
-[Eu te agradeço.](#act4_thanks) `_.thanks_for = "bem estar moral";`
+[Eu te agradeço.](#act4_thanks) `_.thanks_for = "integridade moral";`
 
 # act4_bad_fix
 
