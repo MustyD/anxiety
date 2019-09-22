@@ -96,7 +96,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Claro, a história em sua *inteireza* é a mesma, mas cada capítulo possui dois finais possíveis. Além de todas as opções de dialógo ramificadoras e--
+h: Tudo bem que a história como um todo é a mesma, mas cada capítulo possui dois finais possíveis, além de várias ramificações no diá--
 
 `bb({body:"fear"});`
 
@@ -170,7 +170,7 @@ h: Tá, vamos voltar aos personagens.
 Game.clearText();
 ```
 
-n4: (DEIXE _SUA_ ANSIEDADE BLAH BLAH BLAH QUE MAIS SE ASSEMELHA AO QUE _SEU_ MEDO BLAH BLAH VOCÊ JÁ SABE)
+n4: (DEIXE _SUA_ ANSIEDADE BLÁ BLÁ BLÁ QUE MAIS SE ASSEMELHA AO QUE _SEU_ MEDO BLÁ BLÁ VOCÊ JÁ SABE)
 
 ```
 sfx("squeak");
@@ -353,7 +353,7 @@ b: Viu, humano? Eu sou seu leal lobo-guardião!
 
 `bb({body:"pride_talk"});`
 
-b: Acredite no seu coração! Seus sentimentos são sempre válidos!
+b: Confie no seu coração! Seus sentimentos são sempre válidos!
 
 `bb({body:"pride"});`
 
@@ -428,13 +428,13 @@ h: E, eu recebi um convite?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Então!
+b: Pois então!
 
 [Diga sim, ou morreremos de solidão!](#act1c_loner)
 
 [Diga não, será cheio de drogas fatais!](#act1c_drugs)
 
-[Ignore, nós apenas arruinamos festas.](#act1c_sad)
+[Ignore, nós só arruinamos festas.](#act1c_sad)
 
 # act1c_loner
 
@@ -595,7 +595,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: De qualquer forma. Facebook é um pouco demais. Preciso de algo mais calmo, menos propício a ansiedade.
+h: De qualquer forma. Facebook tá f^od^a hoje. Preciso de algo mais calmo, menos propício a ansiedade.
 
 `hong({eyes:"neutral"});`
 
@@ -624,7 +624,7 @@ bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: Parece que está tudo acabando, como se tudo estivesse morrendo e como nós estivéssemos perdidos com nada que possamos fazer a respeito.
+b: Parece que está tudo acabando, como se tudo estivesse morrendo e como se nós estivéssemos perdidos com nada que possamos fazer a respeito.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -635,7 +635,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Mas, vamos retweetar esse artigo!
+b: De qualquer forma, vamos retweetar esse artigo!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -719,7 +719,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, vou olhar meu Snapchat.
+h: Tá tá tá, vou olhar meu Snapchat.
 
 (#act1e)
 
@@ -1002,7 +1002,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Nós estamos espalhando desinformação! Destruindo a integridade da imprensa livre!
+b: Nós estamos espalhando desinformação! Destruindo a confiança popular na imprensa livre!
 
 ```
 bb({body:"scream"});
@@ -1042,7 +1042,7 @@ b: Você quer que sua coluna vire um pretzel?! Pare de ficar que nem um corcunda
 bb({body:"meta"});
 ```
 
-b: Isso significa você também.
+b: Isso é pra você, também.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1295,7 +1295,7 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: Eles vão te prender em um poço e te forçar a comer pão branco para te engordar, e então vestir a sua pele como uma macacão!
+b: Eles vão te prender em um poço e te forçar a comer pão branco para te engordar, e então vestir a sua pele como um macacão!
 {{/if}}
 
 {{if _.parasite}}
