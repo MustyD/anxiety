@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Afe, f^od^a né?
+a: Aff, f^od^a né?
 
 (#act2-preamble-end)
 
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Afe, f^od^a né?
+a: Aff, f^od^a né?
 
 (#act2-preamble-end)
 
@@ -237,7 +237,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, f^od^a né?
+a: Aff, f^od^a né?
 
 (#act2-preamble-end)
 
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Afe, f^od^a né?
+a: Aff, f^od^a né?
 
 (#act2-preamble-end)
 
@@ -716,7 +716,7 @@ sfx("gravel");
 
 (...501)
 
-b: O sujeito "MOSNTRO TARADO NOJENTO E IMUNDO" será sentenciado a 72 horas em um daqueles pelourinhos medievais para humilhação em praça pública.
+b: O sujeito "MONSTRO TARADO NOJENTO E IMUNDO" será sentenciado a 72 horas em um daqueles pelourinhos medievais para humilhação em praça pública.
 
 b: exceto no caso deles secretamente *gostarem* desse tipo de coisa.
 
@@ -746,7 +746,7 @@ b: Você está suando e seu coração está palpitando agressivamente?
 
 `bb({body:"scream_a_1"})`
 
-b: BOOM, VOCÊ ACABOU DE FALIR O SISTEMA PÚBLICO DE SAÚDE E MILHÕES MORREM IMEDIATAMENTE
+b: BOOM, VOCÊ ACABOU DE FALIR O SISTEMA PÚBLICO DE SAÚDE E MILHÕES MORREM EM SEGUIDA
 
 `_.a2_attack_3 = "bad";`
 
@@ -961,7 +961,7 @@ b: Wood 2009, Psychological Science. Pesquisa lá no Google Scholar, humano,
 
 `bb({body:"scream_b_1"})`
 
-b: E PARE DE ESPALHAR DESINFORMAÇÃO PSEUDOCIENTÍFICA
+b: E PARE DE ESPALHAR PSEUDOCIÊNCIA
 
 ```
 hong({body:"attacked"});
@@ -1325,7 +1325,7 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: Receita especial própria. É um pouquinho mais forte que... bem, qualquer coisa legalizada.
+r: Minha receita especial. É um pouquinho mais forte que... bem, qualquer coisa legalizada.
 
 ```
 publish("act2",["party_hunter",12]);
@@ -1347,7 +1347,7 @@ publish("hp_show");
 
 [Ai meu Deus.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Isso é uma péssima forma de lidar com dificuldades.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Isso é uma péssima forma de lidar com as coisas.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [Não aceite bebida de estranhos.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1392,7 +1392,7 @@ b: Isso é ruim, humano. Isso é muito, muito ruim.
 
 [Isso é *exatamente* como vício começa.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Eu *sabia* que a anfitriã era ruim da cabeça!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Eu *sabia* que a anfitriã era uma bagunça por dentro!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [E, eles podem ter drogado isso aí!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1507,7 +1507,7 @@ setTimeout(function(){
 
 h: MAS QUE ^MERDA^ FOI AQUELA
 
-b: Desculpe-me. Eu tive que mostrar as consequências.
+b: Desculpe-me. Eu tive que mostrar como seriam as consequências.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
 h: EU PUDE *VER* MEU PRÓPRIO CORPO. EU PUDE *SENTIR* A SENSAÇÃO DE BATER AS BOTAS.
@@ -1523,7 +1523,7 @@ h: EU PUDE *OUVIR* AS COSTELAS QUEBRANDO. EU PUDE *SENTIR* O GOSTO DE SANGUE NO 
 
 b: Me desculpe, humano.
 
-n: *ACABE COM ELE*
+n: *ACABE COM ELES*
 
 [{LUTAR: Soque a anfitriã.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1551,7 +1551,7 @@ b: PORRADA PORRADA PORRADA PORRADA PORRADA PORRADA PORRADA --
 
 # act2j_flight
 
-b: Eu *sabia* que todos estes foliões eram doentes. Eles apagam a dor com coisas horríveis!
+b: Eu *sabia* que todos estes festejeiros eram doentes. Eles apagam a dor com coisas horríveis!
 
 `bb({ body:"yell_1" });`
 
@@ -1639,7 +1639,7 @@ publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: ok tchau, bye, ciao, adios, au revoir
+h2: ok tchau, ciao, adios, au revoir
 
 r: O animal talvez tenha ganho por hoje, mas volte, irei misturar algo ainda mais forte só pra você!
 
