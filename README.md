@@ -3,20 +3,27 @@
 
 ---
 
-<div style="text-align: center">
-Isto é uma tradução PT-BR livre.
 
-<a href="https://ncase.me/anxiety/" target="_blank">Versão original em inglês</a>
+<p align="center">Isto é uma tradução PT-BR livre. <br> 
+  <a href="https://ncase.me/anxiety/" target="_blank">Versão original em inglês</a>
+<p>
 
 
 
-Tradutor/Organizador:
-<a href="https://github.com/lucasgcb" target="_blank">lucasgcb</a> <br>
+<p align="center">Tradutor/Organizador:<br>
+  <a href="https://github.com/lucasgcb" target="_blank">lucasgcb</a>
+</p>
 
-Tradutor dos Recursos de Saúde: <br> <a href="https://github.com/lukanvanderlinde" target="_blank">lukanvanderlinde</a> <br>
-Revisores:
-<a href="https://github.com/CebolaBros64" target="_blank">CebolaBros64</a> 
-<a href="https://github.com/eekevo" target="_blank">eekevo</a></div>
+
+<p align="center">Tradutor dos Recursos de Saúde:<br>
+  <a href="https://github.com/lukanvanderlinde" target="_blank">lukanvanderlinde<br></a>
+</p>
+
+<p align="center">
+Revisores:<br>
+  <a href="https://github.com/CebolaBros64" target="_blank">CebolaBros64</a> <br>
+  <a href="https://github.com/eekevo" target="_blank">eekevo</a> <br>
+</p>
 
 ---
 
@@ -126,7 +133,5 @@ Programação Extra por [Spacie](https://spacie.me)
 B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Srivastava, Rowan, Srini Kadamati
 
 **E claro, um grande agradecimento aos [meus fans no Patreon.](https://www.patreon.com/ncase)** Amo cês <3
-
-.
 
 
