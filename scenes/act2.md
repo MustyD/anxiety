@@ -59,7 +59,7 @@ s: É a real, mas essas redes só agem com incentivo. O problema *real* são ess
 publish("act2",["dee",3]);
 ```
 
-s: Quem que iria retweetar um artigo de nóticias horrível, fazendo com que todos os seus amigos sintam-se mal?
+s: Quem que iria retweetar um artigo de notícias horrível, fazendo com que todos os seus amigos sintam-se mal?
 
 ```
 publish("act2",["party_hunter",1]);
