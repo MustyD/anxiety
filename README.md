@@ -23,6 +23,7 @@
 Revisores:<br>
   <a href="https://github.com/CebolaBros64" target="_blank">CebolaBros64</a> <br>
   <a href="https://github.com/ekevoo" target="_blank">Ekevoo</a> <br>
+  <a href="https://github.com/https://github.com/gafanhotoaprendiz" target="_blank">gafanhotoaprendiz</a> <br>
 </p>
 
 ---
