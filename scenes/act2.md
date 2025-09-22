@@ -306,17 +306,17 @@ n: ROUND 2: *BRIGUE!*
 
 [Você tá *de olho* naquela ruiva?](#act2a_perv)
 
-[Ei, vamos conversar sobre o sentido da vida.](#act2a_meaning)
+[Ei, vamos conversar.](#act2a_meaning)
 
 # act2a_social
 
 `bb({eyes:"sad"})`
 
-b: Estamos acabando com o clima desta festa por sermos quadrados e tristes!
+b: Estamos acabando com o clima desta festa por sermos desgraçados e tristes!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Estamos matando a vibe! Cometendo vibe-cídio de primeiro grau!
+b: Estamos matando a vibe!
 
 `bb({eyes:"normal", body:"normal"})`
 
@@ -778,7 +778,7 @@ b: E então eles iram TE MORDER e transformar você em um ACÉFALO "DOS BROTHER"
 
 `bb({body:"scream_a_1"})`
 
-b: OS NAZISTAS ESTÃO MARCHANDO QUE NEM PATOS PARA AS RUAS AGORA MESMO
+b: OS NEONAZISTAS ESTÃO MARCHANDO QUE NEM PATOS PARA AS RUAS AGORA MESMO
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
@@ -904,7 +904,7 @@ h: C^ARAI^O C^ARA^I-C^AARA^LHO *C^AAARA^LHO*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Eba, humano! Estou tão feliz que você pode me ouvir denovo!
+b: Aê, Dan! Estou tão feliz que você pode me ouvir denovo!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
@@ -912,7 +912,7 @@ b: Por que você estava me ignorando?
 
 `hong({body:"facepalm"})`
 
-h: Santa ^porra^, seu completo imbecil.
+h: Puta que pariu, seu completo animal.
 
 `hong({body:"facepalm_2"})`
 
@@ -925,11 +925,11 @@ hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: Eu estava tentando fazer você *morrer de fome*, seu c^uz^ão sadista!
+h: Eu estava tentando fazer você *morrer de fome*, seu psicopata sadista!
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Ferre-se, vou usar afirmações positivas ao invés disso.
+h: Que se lasque, vou usar afirmações positivas ao invés disso.
 
 h: *Eu sou amável. Eu sou do bem. Eu sou inteligente. Eu sou apreciável. Eu sou especial.*
 
@@ -981,7 +981,7 @@ b: Você *precisa* ver, humildemente, suas próprias falhas para poder crescer c
 
 `bb({body:"two_up", eyes:"suspect"})`
 
-b: Você não pode simplesmente usar um desodorizador de ar em em quarto mofado! Cobrir suas falhas fará você pior a longo prazo.
+b: Você não pode simplesmente desamassar um papel amassado! Cobrir suas falhas fará você pior a longo prazo.
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
@@ -1013,7 +1013,7 @@ b: Você está reduzindo pessoas individuais e culturas complexas ao transformá
 
 `bb({body:"scream_b_1"})`
 
-b: PARE DE SER RACISTA, IMBECIL DE OLHOS PUXADOS
+b: PARE DE SER RACISTA, IMBECIL DE QUATRO OLHOS!
 
 ```
 hong({body:"attacked"});
@@ -1027,7 +1027,7 @@ attack("10p", "bad");
 
 # act2e
 
-h: ^PORRACACETE^.
+h: ^PORRA!^.
 
 `hong({body:"yell", mouth:"yell"})`
 
@@ -1041,21 +1041,21 @@ h: Você é um resto evolucionário inútil, como meu apêndice, ou dentes de si
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: P^orr^a, toda essa metáfora do lobo é tosca! Você é simplesmente um monte de química na minha cabeça.
+h: P^orr^a, toda essa metáfora do lobo é tosca! Você é simplesmente meu cérebro usando meus gostos pra me manipular.
 
 `hong({body:"cross", mouth:"cross"})`
 
-h: Então porque deveria *eu* ouvir as palavras de um imprestável, irracional, inexistente pedaço de b^ost^a que nem você?!
+h: Então porque deveria *eu* ouvir as palavras de um fantasma idiota que nem você?!
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
 b: ...
 
-[Poxa, humano. Isso é bem rude.](#act2e_hurtful)
+[Dan. Isso é bem rude.](#act2e_hurtful)
 
 [Eu sou um sentimento. Sentimentos são válidos.](#act2e_valid)
 
-[Humano, *ambos* somos "apenas química."](#act2e_rational)
+[Dan, *ambos* somos "apenas química."](#act2e_rational)
 
 # act2e_hurtful
 
@@ -1146,7 +1146,7 @@ attack("10p", "harm");
 
 h: ...
 
-h: Eu odeio isso. Deus isso dói tanto eu *odeio* isso.
+h: Eu odeio isso. Deus, isso dói tanto e eu *odeio* isso.
 
 h: Eu não consigo atender você. Eu não consigo ignorar você. Eu não consigo brigar com você. 
 
@@ -1256,7 +1256,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Ei. Não é só você, colega. Ansiedade é algo super comum.
+r: Ei. Não é só você, meu parça. Ansiedade é algo super comum.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1264,11 +1264,11 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Poxa, ontem mesmo, ouvi que alguém teve um ataque nervoso na faculdade e estraçalhou o próprio celular
+r: Porra, ontem mesmo, ouvi que alguém teve um ataque nervoso na faculdade e estraçalhou o próprio celular
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Poxa, ontem mesmo, ouvi que alguém se englobou que nem um tatu-bola e chorou em público!
+r: Porra, ontem mesmo, ouvi que alguém se englobou que nem um tatu-bola e chorou em público!
 {{/if}}
 
 ```
@@ -1288,7 +1288,7 @@ publish("act2",["party_hunter",9]);
 publish("act2",["party_hong",20]);
 ```
 
-h2: mas minha ansiedade...
+h2: mas minha o Zenith...
 
 ```
 publish("act2",["party_hunter",2]);
@@ -1386,15 +1386,15 @@ bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 
 h: Mmm, que gostinho mais delicado!
 
-h: Um sabor da cabeça-aos-pés de "cale essa mente aí," com um titinho de "nunca sinta nada denovo"!
+h: Um sabor da cabeça-aos-pés de "cale essa mente aí," com um toque de "nunca sinta nada denovo"!
 
 b: Isso é ruim, humano. Isso é muito, muito ruim.
 
-[Isso é *exatamente* como vício começa.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[Isso é *exatamente* como vício começa, é assim que você morre.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Eu *sabia* que a anfitriã era uma bagunça por dentro!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Eu *sabia* que a Hunter possuía narcóticos!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[E, eles podem ter drogado isso aí!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Eles podem ter drogado isso aí!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
 # act2h_opt1
@@ -1430,15 +1430,15 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
-h: Delicioso, *e* mais barato que terapia!
+h: Delicioso, *e* mais barato que a terapia!
 
 b: HUMANO POR FAVOR PARE
 
 h: Hehehe!
 
-h: E o que *você* pretende fazer a respeito, ^cuzão^?
+h: E o que *você* pretende fazer a respeito, ^furro^?
 
-b: Me perdoe, humano.
+b: Me perdoe, Dan.
 
 b: Eu terei que usar meu GOLPE ESPECIAL
 
@@ -1469,7 +1469,7 @@ sfx("charging");
 
 h: Mas que p^orr^a é essa?
 
-h: Você vai latir mais *palavras* estúpidas pra cima de mim para--
+h: Você vai latir mais *bolachariaas* pra cima de mim para--
 
 ```
 bb({body:"special_c"});
@@ -1510,40 +1510,40 @@ h: MAS QUE ^MERDA^ FOI AQUELA
 b: Desculpe-me. Eu tive que mostrar como seriam as consequências.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: EU PUDE *VER* MEU PRÓPRIO CORPO. EU PUDE *SENTIR* A SENSAÇÃO DE BATER AS BOTAS.
+h: EU PUDE *VER* MEU PRÓPRIO CORPO. EU PUDE VER POR QUANTO TEMPO EU SOBREVIVI, ESSE NÃO É O JEITO QUE EU MORRO!
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: EU PUDE *VER* O OLHAR DE DESGOSTO DE TODO MUNDO. EU PUDE *OUVIR* AS COISAS HORRÍVEIS QUE DISSERAM.
+h: EU PUDE *VER* O OLHAR DE DESGOSTO DE TODO MUNDO. EU PUDE *OUVIR* AS COISAS HORRÍVEIS QUE DISSERAM SOBRE MIM, GRRRRRRRRR!
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: EU PUDE *OUVIR* AS COSTELAS QUEBRANDO. EU PUDE *SENTIR* O GOSTO DE SANGUE NO AR.
+h: EU PUDE *OUVIR* AS COSTELAS QUEBRANDO. EU PUDE *SENTIR* OS POLICIAIS ME JOGANDO NUMA *CELA SUJA*!
 {{/if}}
 
 b: Me desculpe, humano.
 
 n: *ACABE COM ELES*
 
-[{LUTAR: Soque a anfitriã.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{LUTAR: Quebre a Hunter em dois!}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FUGIR: Vamos sair daqui.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FUGIR: Vamos sumir!}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
 `bb({ eyes:"angry" });`
 
-b: Aquela psicopata estava tentando tirar vantagem de você.
+b: Aquela vagabunda estava tentando tirar vantagem de você.
 
-b: Tentaram te corromper, te bagunçar para ficar que nem eles!
+b: Tentaram te corromper, te corromper para tu ficar que nem eles!
 
 `bb({ body:"yell_angry_1" });`
 
-b: Soque aquela imbecil! Apague ela de vez!
+b: Soque aquela arrombada! Apague ela de vez!
 
 `bb({ body:"final_1" });`
 
-b: PORRADA PORRADA PORRADA PORRADA PORRADA PORRADA PORRADA --
+b: MATE ELA E TODO MUNDO DESSA ESPELUNCA!
 
 `_.a2_ending = "fight";`
 
@@ -1551,7 +1551,7 @@ b: PORRADA PORRADA PORRADA PORRADA PORRADA PORRADA PORRADA --
 
 # act2j_flight
 
-b: Eu *sabia* que todos estes festejeiros eram doentes. Eles apagam a dor com coisas horríveis!
+b: Eu *sabia* que todos estes festeiros eram uns doentes de merda. Eles apagam a dor com drogas pesadas!
 
 `bb({ body:"yell_1" });`
 
@@ -1559,7 +1559,7 @@ b: E eles estão tentando enganar você para fazer a mesma coisa! Eles estão co
 
 `bb({ body:"final_1" });`
 
-b: FUJA FUJA FUJA FUJA FUJA FUJA FUJA FUJA FUJA FUJA FUJA --
+b: DÁ O FORA DESSA PORRA DE LUGAR!!!
 
 `_.a2_ending = "flight";`
 
@@ -1620,7 +1620,7 @@ publish("act2",["dee",6]);
 publish("act2",["dum",6]);
 ```
 
-r: V-você...
+h: VAI SE FODER!
 
 ```
 publish("act2",["party_hunter",23]);
@@ -1630,7 +1630,7 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: é *selvagem*.
+r: Caralho... Você é *selvagem*.
 
 r: Eu gosto disso. Chega aí próximo fim de semana, delícia.
 
@@ -1639,13 +1639,13 @@ publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: ok tchau, ciao, adios, au revoir
+h2: ok tchau, eu vou antes que faça algo pior.
 
-r: O animal talvez tenha ganho por hoje, mas volte, irei misturar algo ainda mais forte só pra você!
+r: O animal talvez tenha ganho por hoje, mas volte, irei misturar algo ainda mais forte só pra você, SPANK!
 
-h2: goodbye, sayōnara, auf wiedersehen, zài jiàn, shalom
+h2: Puta merda!
 
-r: Eu e você, jovem, vamos mostrar para aquela besta quem manda!
+r: Eu e você, jovem, vamos mostrar para aquele furry viado quem manda!
 
 (#act2k_end)
 
@@ -1653,11 +1653,11 @@ r: Eu e você, jovem, vamos mostrar para aquela besta quem manda!
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok desculpa eu tenho que tocar daqui
+h2: ok desculpa eu vou dar o fora
 
 `publish("act2",["party_hunter",16]);`
 
-r: *P^ut^a m^erd^a*. O animal ganhou hoje, não é?
+r: *P^ut^a m^erd^a*. O furry ganhou hoje, não é?
 
 `publish("act2",["party_hunter",15]);`
 
@@ -1665,11 +1665,11 @@ h2: não não, eu só, hã, tenho que correr na maratona. bem rápido.
 
 `publish("act2",["party_hunter",19]);`
 
-r: Chega aí próximo fim de semana, delícia. Irei misturar algo ainda mais forte só pra você.
+r: Chega aí próximo fim de semana, delícia. Irei misturar algo ainda mais forte só pra você, SPANK!
 
 h2: ok obrigado tenho que vazar vazando vazei
 
-r: Eu e você, jovem, vamos mostrar para aquela besta quem manda!
+r: Eu e você, jovem, vamos mostrar para aquele furry viado quem manda!
 
 (#act2k_end)
 
@@ -1692,7 +1692,7 @@ sfx("whoosh");
 
 (...1000)
 
-b: Humano! Você está bem?!
+b: Danton! Você tá bem?!
 
 ```
 publish("act2", ["act2_end","next"]);

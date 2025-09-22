@@ -53,11 +53,11 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 [II. A Festa](#act2) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
 
 {{if window.localStorage.act3}}
-[III. A Outra Festa](#act3) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[III. O Possível SUICÍDIO](#act3) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.act3}}
-[III. A Outra Festa]()
+[III. O Possível SUICÍDIO]()
 {{/if}}
 
 {{if window.localStorage.act4}}
@@ -92,7 +92,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Bem-vindo! Isto não é bem um "jogo", mas uma estória interativa. Espero que você goste de ler, troxa!
+n3: Bem-vindo! Isto não é bem um "jogo", mas uma história interativa. Espero que você goste de ler, troxa!
 
 n3: Então, antes de começarmos, como *você* gostaria de ler?
 
@@ -102,7 +102,7 @@ n3: Então, antes de começarmos, como *você* gostaria de ler?
 
 n3: Ótimo! Note: Você sempre poderá mudar as opções clicando o ícone ⚙ logo abaixo. Além disso, o jogo salvará seu progresso em cada capítulo!
 
-n3: Agora, vamos começar nossa estória... 
+n3: Agora, vamos começar nossa história... 
 
 `clearText()`
 

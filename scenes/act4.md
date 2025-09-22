@@ -215,11 +215,11 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Então, qual que foi a moral dessa maldita estória?
+h: Então, qual que foi a moral dessa maldita história?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: O que sequer *aprendemos* com isso? Eu *estava* sendo imbecil, aqueles "colegas" *estava* me usando, e a gente quase *morreu*.
+h: O que sequer *aprendemos* com isso? Eu *estava* sendo imbecil, aqueles "colegas" *estavam* me usando, e a gente quase *morreu*.
 
 `hong({body:"normal", eyes:"normal"})`
 
@@ -296,7 +296,7 @@ h: Hm?
 
 `bb({eyes:"normal"});`
 
-b: Eu *era* o lobinho que gritou lobo. Daí, quando perigo *de verdade* apareceu, você – justificadamente – não acreditou em mim.
+b: Eu *era* o lobinho que gritou. Daí, quando perigo *de verdade* apareceu, você – justificadamente – não acreditou em mim.
 
 `bb({eyes:"surprise_r"});`
 
@@ -447,11 +447,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[Eu tenho medo que seremos machucados.](#act4_harm)
+[Eu tenho medo de morrermos de uma forma cruel.](#act4_harm)
 
-[Eu tenho medo de ficarmos na solidão.](#act4_alone)
+[Eu tenho medo de morrermos sozinhos.](#act4_alone)
 
-[Eu tenho medo que somos alguém ruim.](#act4_bad)
+[Eu tenho medo de morrermos pelos outros](#act4_bad)
 
 # act4_harm
 
@@ -466,7 +466,7 @@ b: Eu quero proteger sua necessidade de segurança física,
 
 `bb({eyes:"sad_d"})`
 
-b: Mas o *mundo inteiro* parece tão perigoso. Tão cheio de tragédia, e malícia.
+b: Mas o *mundo inteiro* parece tão perigoso. Tão cheio de tragédia, e filha-da-putagem.
 
 `bb({eyes:"sad"})`
 
@@ -668,7 +668,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: D'aw, assim tu me deixa corado.
 
 (#act4_something_else)
 
@@ -713,11 +713,11 @@ b: Tá bem. Mas eu não tenho polegares, então quem vai ter que pintar vai ser 
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: Por exemplo: Nós pulamos de uma maldita *cobertura*!
+b: Por exemplo: Nós pulamos da porra de uma *cobertura*!
 {{/if}}
 
 {{if !_.INJURED}}
-b: Por exemplo: Nós quase pulamos de uma maldita *cobertura*!
+b: Por exemplo: Nós quase pulamos da porra de uma *cobertura*!
 {{/if}}
 
 ```
@@ -887,7 +887,7 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: Poderíamos praticar abilidades como perguntar sobre coisas, escutar e empatizar, ser alguém aberto e vulnéravel, etc?
+h: Poderíamos praticar habilidades como perguntar sobre coisas, escutar e empatizar, ser alguém aberto e vulnéravel, etc?
 
 `hong({ eyes:"normal_l" });`
 
@@ -899,7 +899,7 @@ h: Também poderia aprender a ser mais confortável com rejeição.
 
 `hong({ eyes:"normal" });`
 
-h: Ou aprender quando que as pessoas *não estão* nos rejeitando, sabe? Quando estão apenas cansadas, ou possuem síndrome de cara-de-bunda.
+h: Ou aprender quando que as pessoas *não estão* nos rejeitando, sabe? Quando estão apenas cansadas, ou são uns babacas de merda.
 
 ```
 hong({ body:"normal" });
@@ -908,7 +908,7 @@ bb({ eyes:"annoyed_r" });
 
 b: Isso são algumas opções. Mas, sobre "aprender abilidades sociais"...
 
-[Isso não é meio *manipulador?*](#act4_alone_skills_manipulative)
+[Isso não é meio *manipulador?*, "John Liebhart".](#act4_alone_skills_manipulative)
 
 [Isso não facilitar que sejamos *manipulados?*](#act4_alone_skills_manipulated)
 
@@ -956,7 +956,7 @@ b: A gente vai babar tanto ovo, que a gente vai ficar com batom branco!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
-hong( body:"chin" });
+hong( {body:"chin" });
 ```
 
 h: Então, você está certo. "Abilidades sociais" não podem ser apenas sobre os outros, também tem a ver com aplicar *limites*.
@@ -966,11 +966,11 @@ h: Então, você está certo. "Abilidades sociais" não podem ser apenas sobre o
 h: Não dá pra convidar alguém para nossa casa se não tivermos paredes para delimitá-la.
 
 ```
-hong( eyes:"angry", mouth:"narrow" });
-bb( eyes:"annoyed", mouth:"smile" });
+hong( {eyes:"angry", mouth:"narrow" });
+bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Aliás... aquela imagem do batom... *que nojo??*
+h: Aliás... aquela imagem do batom... *lá ele.*
 
 (#act4_something_else)
 
@@ -997,7 +997,7 @@ b: Tá né, beleza... no pior dos casos, a gente pode mudar de cidade e consegui
 
 `bb({ eyes:"normal" });`
 
-h: É, eu acho que isso só custa duas bitcoins, hoje em dia.
+h: Ou *"Go Postal"*™.
 
 (#act4_something_else)
 
@@ -1156,11 +1156,11 @@ b: Mas parece que, no fundo, somos tão fundamentalmente... quebrados.
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: E nem tente me dizer que não somos loucos. Nós pulamos de *uma cobertura*.
+b: E nem tente me dizer que não somos loucos. Nós praticamente tentamos *suicídio*.
 {{/if}}
 
 {{if !_.INJURED}}
-b: E nem tente me dizer que não somos loucos. Quase pulamos de *uma cobertura*.
+b: E nem tente me dizer que não somos loucos. Quase tentamos *suicídio*.
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
@@ -1196,7 +1196,7 @@ h: Podemos devagarosamente construir hábitos melhores, alinhas nossa vida com n
 
 `hong({body:"one_up"});`
 
-h: E, se necessário, pedir ajuda proficional – um terapeuta ou conselheiro.
+h: E, se necessário, pedir ajuda profissional – um terapeuta ou conselheiro.
 
 `hong({body:"normal"});`
 
@@ -1206,7 +1206,7 @@ h: Existem jeitos de arrumar a gente.
 
 [Mas e se arrumarmos *demais*?](#act4_bad_fix_too_much)
 
-[A gente não tem grana para ajuda profissional.](#act4_bad_fix_afford)
+[A gente não tem grana para ajuda profissional, A gente é pobre.](#act4_bad_fix_afford)
 
 # act4_bad_fix_cant
 
@@ -1251,7 +1251,7 @@ bb({body:"chest", mouth:"smile_talk", MOUTH_LOCK:true, eyes:"sexy"}, 0);
 hong({eyes:"normal", mouth:"normal"}, 0);
 ```
 
-h: Por favor não faça isso.
+h: Por favor não faz isso de novo, se não o Rule 34 "solta foguete".
 
 (#act4_something_else)
 
@@ -1406,7 +1406,7 @@ b: Tipo, é *bom* que somos quebrados ou algo assim? Não!
 
 `bb({ eyes:"angry_r", body:"one_up" });`
 
-b: Todos aqueles escritores de Hollywood que romantizam problemas mentais são fanfarrões!
+b: Todos aqueles escritores de Hollywood que romantizam problemas mentais são uns arrombados!
 
 `bb({ eyes:"angry", body:"two_up" });`
 
@@ -1597,7 +1597,7 @@ a: V-v-você se importaria se eu almoçasse contigo?
 `publish("act4", ["alshire", 1]);`
 
 {{if _.TOP_FEAR=="harm"}}
-s: *Aquilo* é seu crush? Por que eles estão sentados como um assassino em série psicopata?
+s: *Aquilo* é seu crush? Aquele moleque ali?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
@@ -1662,7 +1662,7 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: AHHHHH EU SABIA! ELES SÃO ALGUM PSICOPATA PERIGOSO INDUZIDO A PÂNICO!
+s: AHHHHH EU SABIA! ELES SÃO que nem o Eric Harrison, vão fazer um massacre aqui!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
@@ -1701,7 +1701,7 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: ELES ESTÃO SENDO AMIGÁVEIS *DEMAIS*! COMO TED BUNDY, O ASSASSINO EM SÉRIE!
+s: ELES ESTÃO SENDO AMIGÁVEIS *DEMAIS*! COMO A COBRA DO "ADÃO E EVA"!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
@@ -1740,7 +1740,7 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: QUE PENSAMENTOS DEPREVADOS ELES ESTÃO PROCESSANDO?! QUE ESCURIDÃO PREENCHE O CORAÇÃO DE TAL PSICOPATA?!
+s: QUE PENSAMENTOS DEPRAVADOS ELES ESTÃO PROCESSANDO?! QUE ESCURIDÃO PREENCHE O CORAÇÃO DESSE PSICOPATA?!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
@@ -1805,7 +1805,7 @@ publish("act4", ["bb_closer", 0]);
 publish("act4", ["hong_closer", 3]);
 ```
 
-h: ¯\_(ツ)_/¯
+h: Foda-se, meu parceiro.
 
 ```
 publish("act4", ["hong_closer", 1]);
@@ -1852,7 +1852,7 @@ b: Irei latir para as sombras. Vou te assustar com palavras. Talvez até mostre 
 
 `publish("act4", ["bb_closer", 9]);`
 
-b: Me desculpe! Sou um cãozinho perturbado de abrigo! Cães perturbados fazem cocô na sua cama, as vezes!
+b: Me desculpe! Sou um cãozinho perturbado de abrigo! Eu sou viciado em atenção!
 
 `publish("act4", ["bb_closer", 4]);`
 
@@ -1860,7 +1860,7 @@ b: Mas se você for paciente comigo... se ficar e sentar comigo...
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: Talvez você consiga adestrar este lobo aqui.
+b: Talvez você consiga adestrar este lobinho aqui.
 
 `publish("act4", ["bb_closer", 0]);`
 
@@ -1870,7 +1870,7 @@ b: Talvez você consiga adestrar este lobo aqui.
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Bom cão.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
+[Bom Garoto.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "b"`
 
@@ -1971,15 +1971,15 @@ publish("act4", ["hong_closer", 5]);
 ```
 
 {{if _.fifteencigs}}
-b: AAAAA AINDA ESTAMOS COMENDO SOZINHOS QUINZE CIGARROS AAAAA
+b: AAAAAH! AINDA ESTAMOS COMENDO SOZINHOS, NINGUÉM NOS AMA! AAAAAH!
 {{/if}}
 
 {{if _.parasite}}
-b: AAAAA VOCÊ AINDA NÃO ESTÁ SENDO PRODUZIDO ENQUANTO COME SOMOS PARASITAS AAAAA
+b: AAAAAH! VOCÊ AINDA NÃO ESTÁ SENDO PRODUZIDO ENQUANTO COME, SOMOS PESSOAS HORRÍVEIS! AAAAAH!
 {{/if}}
 
 {{if _.whitebread}}
-b: AAAAA VOCÊ ESTÁ COMENDO MAIS PÃO BRANCO AAAAA
+b: AAAAAHHH VOCÊ ESTÁ SE ENTUPINDO DE PÃO BRANCO! AAAAAHHH!
 {{/if}}
 
 ```

@@ -416,7 +416,7 @@ h: Huh. Meu feed do facebook diz que vai rolar uma festa este final de semana.
 
 `bb({eyes:"uncertain"});`
 
-b: Aquela pessoa estranha não faz uma festa *todo* final de semana?
+b: Aquela desgraçada não faz uma festa *todo* final de semana?
 
 `bb({eyes:"uncertain_right"});`
 
@@ -430,9 +430,9 @@ h: E, eu recebi um convite?
 
 b: Pois então!
 
-[Diga sim, ou morreremos de solidão!](#act1c_loner)
+[Diga sim, e tome cuidado!](#act1c_loner)
 
-[Diga não, será cheio de drogas fatais!](#act1c_drugs)
+[Diga não, será cheio de drogas fatais, eu SEI DISSO!](#act1c_drugs)
 
 [Ignore, nós só arruinamos festas.](#act1c_sad)
 
@@ -506,7 +506,7 @@ b: ou até pior... PÃO BRANCO.
 {{/if}}
 
 {{if _.whitebread}}
-b: Nós teremos uma overdose tão pesada de cocaina e pão branco que eles não irão conseguir caber nossa bunda gorda dentro da fornalha de cremação!
+b: Nós teremos uma overdose tão pesada de cocaina e pão branco, ficaremos com o rabo gordo e seremos estuprados, e ficaremos viciados!
 {{/if}}
 
 {{if !_.whitebread}}
@@ -541,7 +541,7 @@ h: Vou dizer não.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: Tudo que fazemos em festas é reclamar em um canto sobre como solidão é tão mortífera quanto fumar 15 cigarros ao dia.
+b: Tudo que fazemos em festas é reclamar em um canto sobre solidão igual um femboy gótico.
 {{/if}}
 
 {{if _.parasite}}
@@ -772,7 +772,7 @@ h: Huh, fotos de ontem a noite. Então *é assim* que aquelas festas semanais s�
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Vish, parece muito cheio de gente para a minha ansiedade.
+h: Vish, parece muito cheio de gente pra mim.
 
 h: Talvez eu deveria ter dito não para o convite?
 
@@ -781,9 +781,9 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Mudar de idéia? E ser babaca?!](#act1e_yes_dontchange)
+[Mudar de idéia? E parecer um bipolar?](#act1e_yes_dontchange)
 
-[Mudar de idéia! É muito cheio!](#act1e_yes_changetono)
+[Mudar de idéia! É mais seguro!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
 [Poisé, eles estavam subtweetando a gente mesmo.](#act1e_ignore_subtweet)
@@ -794,7 +794,7 @@ bb({mouth:"normal", eyes:"normal"});
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[Sabia que você senta com uma péssima postura?](#act1e_ignore_posture)
+[Sabia que você senta com uma péssima postura? Parece um camarão!](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
