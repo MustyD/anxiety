@@ -140,7 +140,7 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, às vezes, hum... O Beebee tem razão...
+h2: Uh, às vezes, hum... O Zenith tem razão...
 
 ```
 publish("act3",["roofhunter",5]);
@@ -186,7 +186,7 @@ r: Esse arrombado não é nosso amigo. É uma besta fora de controle, o que sign
 publish("act3",["roofhunter",20]);
 ```
 
-r: Ou tomar um *tiro de FAL no meio da car*.
+r: Ou tomar um *tiro de FAL no meio da cara*.
 
 ```
 publish("act3",["roofhunter",27]);

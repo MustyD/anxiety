@@ -48,7 +48,7 @@ b: Humano! Escute, estamos em perigo! O jogador...
 
 [...não achará um final alternativo!](#act1_replay_alternate)
 
-[...terá dissonância ludonarrativa!](#act1_replay_dissonance)
+[...Vai fazer coisas horríveis conosco!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -67,11 +67,11 @@ b: Eles nos farão quebrar seu celular ao lhe dar um ataque de pânico!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: Eles não vão deixar a gente bater na anfitriã da festa!
+b: Eles não vão deixar a gente bater na Hunter!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: Eles vão fazer a gente bater na simpática anfitriã anti-herói da festa!
+b: Eles vão fazer a gente bater na Hunter, não que ela não mereça...
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
@@ -112,23 +112,23 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Uma luso-o quê agora?
+h: Pera aí, o quê você disse?
 
-`bb({eyes:"normal"});`
+`bb({eyes:"uncertain"});`
 
-b: O arco de história foi sobre como você pode *ESCOLHER* construir uma colaboração saudável com seus medos,
-
-`bb({eyes:"normal_right"});`
-
-b: Mas jogar o jogo denovo vai resultar na mesma estória, implicando que suas *ESCOLHAS* não importam,
-
-`bb({eyes:"narrow_eyebrow"});`
-
-b: Mostrará então a contradição entre a mensagem do jogo e suas mecânicas,
+b: Ele vai procurar o nome do jogo no Rule 34...
 
 `bb({eyes:"fear"});`
 
-b: Que logo desmoronará a construção deste universo narrativo,
+b: E vão achar resultados!
+
+`bb({eyes:fear"});`
+
+b: E ELE VAI SE VICIAR EM PORNOGRAFIA COM DISTÚRBIOS MENTAIS!
+
+`bb({eyes:"fear"});`
+
+b: E vai sujar nossa imagem pela internet inteira!
 
 `bb({body:"fear"});`
 
@@ -186,7 +186,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Ah legal, meu lobo voltou. Fantááástico.
+h: Ah legal, o Zenith voltou. Fantááástico.
 
 `hong({eyes:"0_neutral"})`
 
@@ -349,7 +349,7 @@ n: É SUPER EFETIVO
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Viu, humano? Eu sou seu leal lobo-guardião!
+b: Viu, Dan? É o que e tô falando, eu sou seu leal lobo-guardião!
 
 `bb({body:"pride_talk"});`
 
@@ -903,7 +903,7 @@ h: Talvez eu não deveria ter dito não para o convite?
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[Sabia que você senta com uma péssima postura?](#act1e_ignore_posture)
+[Sabia que você senta com uma péssima postura? Parece um camarão!](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
@@ -1042,7 +1042,7 @@ b: Você quer que sua coluna vire um pretzel?! Pare de ficar que nem um corcunda
 bb({body:"meta"});
 ```
 
-b: Isso é pra você, também.
+b: Isso é pra você, também, player.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1133,15 +1133,15 @@ h: Tanto faz. Nova notificação no Tinder.
 
 `bb({eyes:"uncertain"})`
 
-b: O que, aquele app de sexo?
+b: O que, aquele app de putaria?
 
 `hong({eyes:"annoyed"})`
 
-h: Não é um app de sexo, é só um jeito de conhecer novas pess--
+h: Não é o Pornhub, é o Tinder, é só um jeito de conhecer novas pess--
 
 `bb({eyes:"narrow"})`
 
-b: É um app de sexo.
+b: É um app de putaria.
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
@@ -1182,7 +1182,7 @@ b: mas nunca irá preencher o buraco...
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: aqui *dentro*.
+b: no *coração*.
 
 (...1000)
 
@@ -1299,15 +1299,15 @@ b: Eles vão te prender em um poço e te forçar a comer pão branco para te eng
 {{/if}}
 
 {{if _.parasite}}
-b: Eles vão te bater com um temporizador de pomodoro e dizer "VOCÊ DEVERIA TER PRODUZIDO MAIS, PARASITA"
+b: Eles vão te cortar com um machete e dizer "VOCÊ DEVERIA TER PRODUZIDO MAIS, PARASITA"
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: Eles vão estraçalhar sua carne em confetti, transformar seus orgãos em serpentinas, misturar seu sangue em uma bacia de ponche
+b: Eles vão estraçalhar sua carne em confetti, transformar suas tripas em serpentinas, misturar seu sangue em uma bacia de ponche
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: Que tal ISSO como convite de festa?!
+h: puta que pariu mano, isso nem eu com minha mente insana consigo imaginar, agora tu me deixou paranoico!
 {{/if}}
 
 ```
@@ -1349,7 +1349,7 @@ h:
 {{if _.hookuphole}}"vamos morrer em solidão"... {{/if}}
 {{if _.serialkiller}}"eles são um assassino em série"... {{/if}}
 {{if _.catmilk}}"gatos não digerem leite"... {{/if}}
-{{if _.pokemon}}uma ^merda^ de paródia musical... {{/if}}
+{{if _.pokemon}}uma paródia musical que vai me fazer quebrar de rir... {{/if}}
 
 h: eu só quero viver minha vida
 
@@ -1357,7 +1357,7 @@ h: eu só quero ser livre, livre de toda essa... dor.
 
 `bb({eyes:"look_sad"});`
 
-b: Ei... humano...
+b: Ei... Danton...
 
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
@@ -1465,7 +1465,7 @@ sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Agora, me dê licença enquanto eu como esse ^caralho^ de sanduíche delicioso em paz.
+h: Agora, me dê licença enquanto eu como esse sanduíche delicioso em paz.
 
 `hong({body:"2_sammich_eat"});`
 
