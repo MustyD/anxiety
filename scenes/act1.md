@@ -1303,7 +1303,7 @@ b: Eles vão te cortar com um machete e dizer "VOCÊ DEVERIA TER PRODUZIDO MAIS,
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: Eles vão estraçalhar sua carne em confetti, transformar suas tripas em serpentinas, misturar seu sangue em uma bacia de ponche
+b: Ele ou ela vai te forçar a participar em um filme snuff e vão matar sua família na sua frente, vão picotar sua carne com uma machadinha e vai vender num açougue!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
@@ -1576,11 +1576,11 @@ n: PARABÉNS!
 
 n: VOCÊ PROTEGEU AS NECESSIDADES FÍSICAS + SOCIAIS + MORAIS DO SEU HUMANO COM SUCESSO.
 
-n: ALÁ, OLHE COMO ELES ESTÃO GRATOS
+n: ALÁ, OLHE COMO ELE ESTA GRATO
 
 (...500)
 
-n: AGORA QUE A ENERGIA DELES ESTÁ EM ZERO, VOCÊ PODERÁ CONTROLAR SUAS AÇÕES DIRETAMENTE
+n: AGORA QUE A ENERGIA DELE ESTÁ EM ZERO, VOCÊ PODERÁ CONTROLAR SUAS AÇÕES DIRETAMENTE
 
 `bb({mouth:"smile", eyes:"normal"});`
 
@@ -1588,7 +1588,7 @@ n: ESCOLHA SEU GOLPE FINAL
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *ACABE COM ELES*
+n: *ACABE COM ELE*
 
 [{LUTAR: Puna seu celular estressante!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1610,7 +1610,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Entregue punição ao celular! Destrua-o! Mate-o!
+b: Entregue punição a esse celular! Destrua-o! Esbagaçe-o!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1619,7 +1619,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE--
+b: PIPOCA ESSA PORRA DESSE SAMSUNG NO CHÃO E ESTOURA ELE!
 
 (#act1j)
 
@@ -1635,7 +1635,8 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Faça como um tatu-bola! Se englobe em auto-defesa!
+b: Ou tu vai ir Postal e matar todos á sua volta, o que inclui você...
+b: OU VOCÊ SE ENCOLHE AGORA E CHORA!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1644,7 +1645,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHOR--
+b: "CRY AND SQUIRM AND DIE ALONE, YOU CANNOT HIDE FROM YOUR DEMISE!"
 
 (#act1j)
 
