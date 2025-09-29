@@ -356,7 +356,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 h: Você tentou essa besteira de "me mostrar", também.
 
-b: Dan... N-não...
+b: Hong... N-não...
 
 `hong({ eyes:"look_right" });`
 
@@ -572,7 +572,7 @@ b: Você *está* se colocando em perigo. Seus supostos "amigos" *estão* apenas 
 
 `bb({ eyes:"sad" });`
 
-b: Então por favor, Danton... por que você não acredita em mim?!
+b: Então por favor, humano... por que você não acredita em mim?!
 
 h: Porque você nunca acreditou em *mim*.
 

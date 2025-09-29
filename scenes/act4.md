@@ -832,7 +832,7 @@ bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: Qual é, sou apenas uma pessoa jovem e vulnerável enquanto você é um grande lobo assustador. O que é o pior que eles poderiam invent--
+h: Qual é, sou apenas um garoto afeminado autista e vulnerável enquanto você é um grande lobo assustador. O que é o pior que eles poderiam invent--
 
 `hong({ eyes:"normal", body:"point" });`
 
@@ -996,6 +996,7 @@ h: Então vamos falhar em cooperação, tá?
 b: Tá né, beleza... no pior dos casos, a gente pode mudar de cidade e conseguir uma identidade nova.
 
 `bb({ eyes:"normal" });`
+`hong({ body:"one_up" });`
 
 h: Ou *"Go Postal"*™.
 
