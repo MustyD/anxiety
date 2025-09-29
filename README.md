@@ -4,56 +4,46 @@
 ---
 
 
-<p align="center">Isto é uma tradução PT-BR livre. <br> 
+<p align="center">Isto é um tipo de versão editada, MUITO zoada e mal-feita do Adventures With Anxiety original.<br> 
   <a href="https://ncase.me/anxiety/" target="_blank">Versão original em inglês</a>
 <p>
 
 
 
-<p align="center">Tradutor/Organizador:<br>
+<p align="center">Tradutor original de onde tirei os textos pra editar:<br>
   <a href="https://github.com/lucasgcb" target="_blank">lucasgcb</a>
-</p>
-
-
-<p align="center">Tradutor dos Recursos de Saúde:<br>
-  <a href="https://github.com/lukanvanderlinde" target="_blank">lukanvanderlinde<br></a>
-</p>
-
-<p align="center">
-Revisores:<br>
-  <a href="https://github.com/CebolaBros64" target="_blank">CebolaBros64</a> <br>
-  <a href="https://github.com/ekevoo" target="_blank">Ekevoo</a> <br>
-  <a href="https://github.com/gafanhotoaprendiz" target="_blank">gafanhotoaprendiz</a> <br>
 </p>
 
 ---
 
-# [Jogue a estória interativa aqui!](https://lucasgcb.github.io/anxiety/)
+# [Seja Alpha-Tester Gratuitamente!](https://mustyd.github.io/anxiety/)
 
 ## Domínio Público
 
 Nicky Case e Monplaisir dedicam, por meio deste documento, todo o seu trabalho original para esta obra ao domínio público, sob a licença [Creative Commons Zero](https://creativecommons.org/choose/zero/).
-Isso significa que: você pode reutilizar e modificar *qualquer* parte da arte / código / música neste jogo, para qualquer propósito, inclusive comercial!
+Isso significa que: você também pode reutilizar e modificar *qualquer* parte da arte / código / música neste jogo, para qualquer propósito, inclusive comercial!
 
-**P:** Eu tenho que dar atribuição?    
-**R:** Você não tem *obrigação legal* disso, mas seria bem *legal!* <3
+**P:** Eu tenho que dar os créditos pela base desse jogo?  
+**R:** Pela MINHA base eu só recomendo, se não quiser também, foda-se, não é como se eu fosse te caçar e te odiar.
 
-**P:** Legalmente falando, posso dizer que *eu* criei tudo sozinho?    
-**R:** Sim, do mesmo jeito que você pode dizer que escreveu Frankenstein, por Mary Shelley, ou dizer que tem 13 mamilos.
+**P:** Posso dizer que *eu* criei tudo sozinho?    
+**R:** Claro, eu entre MUITAS aspas fiz isso.
 
 **P:** Posso colocar esse jogo em outros sites?
 **R:** Talvez. Apesar de ser, legalmente falando, algo completamente aceitável, muitos sites tem suas próprias regras sobre colocar conteúdo de código aberto/domínio público sem modificações *significantes*. (Mas se for para o *seu site*, pode colocar à vontade!) 
 
 **P:** Posso vender um port desse jogo para outra plataforma?  
-**R:** Sim! Mas para evitar confusão, eu recomendor marcar seu jogo como "Fan-Made Port", com um link para esse documento onde eu estou explicitamente dizendo que uso comercial é permitido (Exemplo: [Port da Steam de outro jogo meu!](https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) Isso é para evitar acusações de "roubo" pela galera que não está ligada que eu sempre abro e dedico meus projetos ao domínio público.
+**R:** Sim! Mas para evitar confusão, eu recomendo marcar seu jogo como "Fan-Made Port", com um link para esse documento onde eu estou explicitamente dizendo que uso comercial é permitido, e eu adoraria também.
 
 **P:** Posso transformar esse jogo em um simulador de namoro entre o Humano e o Lobo?   
-**R:** hã
+**R:** FAÇA.
 
 
 ## Créditos Completos
 
 Arte / Programação / Enredo por [Nicky Case](https://ncase.me/)
+
+Plot novo por [MustyDan](https://github.com/MustyD) aka [n0laM](https://www.youtube.com/@n0laM_SCP)
 
 Música por [Monplaisir](https://loyaltyfreakmusic.com)
 
@@ -131,8 +121,6 @@ Programação Extra por [Spacie](https://spacie.me)
 
 **Agradecimento à todos os meus Playtesters!**
 
-B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Srivastava, Rowan, Srini Kadamati
-
-**E claro, um grande agradecimento aos [meus fans no Patreon.](https://www.patreon.com/ncase)** Amo cês <3
+...Eu fui meu Playtester.
 
 
