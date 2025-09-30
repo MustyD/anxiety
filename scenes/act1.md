@@ -204,7 +204,7 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Humano! Escute, estamos em perigo! O problema é que...
+b: Danton! Escute, estamos em perigo! O problema é que...
 
 `bb({body:"squeeze"})`
 
@@ -510,7 +510,7 @@ b: Nós teremos uma overdose tão pesada de cocaina e pão branco, ficaremos com
 {{/if}}
 
 {{if !_.whitebread}}
-b: Nós teremos uma overdose com tantas drogas que o funerário irá se perguntar como que nosso corpo já *havia sido* embalsamado!
+b: Nós teremos uma overdose com tanto crack que o funerário irá se perguntar como que nosso corpo já *havia sido* embalsamado!
 {{/if}}
 
 ```
@@ -580,9 +580,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. Se isso fizer você calar a boca, tudo bem.
+h: puta queu pariu, cala-te, eu cansei desses paradoxos de merda.
 
-h: Eu vou ignorar o convite.
+h: Eu vou ignorar essa porra de convite.
 
 `_.partyinvite="ignore"`
 
@@ -595,7 +595,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: De qualquer forma. Facebook tá f^od^a hoje. Preciso de algo mais calmo, menos propício a ansiedade.
+h: De qualquer forma. Facebook tá zika hoje. Preciso de algo mais calmo, menos propício a ansiedade.
 
 `hong({eyes:"neutral"});`
 
@@ -617,7 +617,7 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: Meu Deus, é como se o mundo estivesse em chamas, não é?
+b: Meu Deus, é como se o inferno na terra fosse real, não é?
 
 ```
 bb({eyes:"pained2"});
@@ -670,13 +670,13 @@ b: É um subtweet! Um esperto subtweet sorrateiro!
 
 `hong({eyes:"annoyed"});`
 
-h: Provavelmente não é?
+h: Provavelmente não é, seu pamonha!
 
 `bb({eyes:"narrow", mouth:"small"});`
 
 b: mas e se eles estiverem falando pelas nossas costas
 
-h: Eles n--
+h: Eles não tão, eu sou um foda-se pra eles...
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
@@ -684,13 +684,13 @@ b: NA FRENTE DAS NOSSAS COSTAS
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: Eu n--
+h: Eu não sou importante, não é sobre mim...
 
 `bb({eyes:"narrow", mouth:"small"});`
 
 b: Mas *e se for*
 
-h: S--
+h: Deu, Zenith, eu não sou importante!
 
 `bb({eyes:"narrow_eyebrow"});`
 
@@ -701,7 +701,7 @@ Game.OVERRIDE_TEXT_SPEED = 0.5;
 hong({mouth:"shut"});
 ```
 
-h: ...
+h: ungh.
 
 (...1000)
 
@@ -727,7 +727,7 @@ h: Tá tá tá, vou olhar meu Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Hehe sim é bonitinho, acabei de retweetar, eu ach--
+h: Hehe sim é bonitinho, pera aí, tem algo errado!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -735,7 +735,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: GATOS NÃO PODEM DIGERIR LEITE SOMOS PESSOAS TERRÍVEIS POR CURTIR O ABUSO DE ANIMAIS
+b: GATOS NÃO PODEM DIGERIR LEITE SOMOS PESSOAS TERRÍVEIS POR CURTIR O ABUSO DE ANIMAIS!
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -826,7 +826,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Cale a boca cale A BOCA eu vou manter o meu sim!
+h: Cale a boca, mano! Eu vou manter o meu sim!
 
 (#act1f)
 
@@ -876,7 +876,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Cale a boca cale A BOCA eu vou mudar para não! DEUS!
+h: Cale a boca, tu tá usando A BOATE KISS pra me manipular! Eu vou mudar para não! DEUS!
 
 (#act1f)
 
@@ -890,9 +890,9 @@ h: Talvez eu não deveria ter dito não para o convite?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Mudar de idéia? E ser babaca?!](#act1e_no_dontchange)
+[Mudar de idéia? E parecer um bipolar?!](#act1e_no_dontchange)
 
-[Mudar de idéia! Não morra na solidão!](#act1e_no_changetoyes)
+[Mudar de idéia! Não queira ficar sozinho!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
 [Poisé, eles estavam subtweetando a gente mesmo.](#act1e_ignore_subtweet)
@@ -928,7 +928,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Cale a boca cale A BOCA eu vou deixar como não!
+h: Calado, eu vou deixar como não!
 
 (#act1f)
 
@@ -958,7 +958,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Cale a boca cale A BOCA eu vou mudar para sim! Deus!
+h: MEU DEUS PARA COM ISSO, O PROERD ME MATARIA SE EU FUMASSE!
 
 (#act1f)
 
@@ -969,14 +969,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Todos os nossos tweets problemáticos voltaram para nos crucificar!
+b: Todos os nossos tweets de furries voltaram para nos crucificar!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: Nós vamos ser expostos, cancelados, arrastados pela super-rodovia da informação por uma corda de acusações!
+b: Nós vamos ser caçados, espancados, fuzilados e atacados por todo mundo por sermos furries nojentos!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -991,7 +991,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Por que você é assim?!
+h: O que tu quer falar? TU É UM FURRY!
 
 (#act1f)
 
@@ -1025,7 +1025,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Por que você é assim?!
+h: Cara, que porra é essa?!
 
 (#act1f)
 
@@ -1042,7 +1042,7 @@ b: Você quer que sua coluna vire um pretzel?! Pare de ficar que nem um corcunda
 bb({body:"meta"});
 ```
 
-b: Isso é pra você, também, player.
+b: Isso é pra você, também, jogador(a).
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1303,11 +1303,11 @@ b: Eles vão te cortar com um machete e dizer "VOCÊ DEVERIA TER PRODUZIDO MAIS,
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: Eles vão estraçalhar sua carne em confetti, transformar suas tripas em serpentinas, misturar seu sangue em uma bacia de ponche
+b: Eles vão te desmenbrar, te transformarão numa boneca de cadáver, você estará morto e ele foderá seu corpo e aparência!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-h: puta que pariu mano, isso nem eu com minha mente insana consigo imaginar, agora tu me deixou paranoico!
+h: puta que pariu mano, tu tirou isso daquela música que a Rafa me mostrou néh?
 {{/if}}
 
 ```
@@ -1343,12 +1343,12 @@ h: estou ficando doente com este jogo.
 h:
 {{if _.fifteencigs}}"solidão vai nos matar"... {{/if}}
 {{if _.parasite}}"somos um parasita-da-sociedade"... {{/if}}
-{{if _.whitebread}}"não coma aquilo, vai nos matar"... {{/if}}
+{{if _.whitebread}}"não coma tal coisa, vai nos matar"... {{/if}}
 {{if _.subtweet}}"eles estão falando pelas nossas costas"... {{/if}}
-{{if _.badnews}}"o mundo está em chamas"... {{/if}}
-{{if _.hookuphole}}"vamos morrer em solidão"... {{/if}}
-{{if _.serialkiller}}"eles são um assassino em série"... {{/if}}
-{{if _.catmilk}}"gatos não digerem leite"... {{/if}}
+{{if _.badnews}}"Armageddon is upon us"... {{/if}}
+{{if _.hookuphole}}"vamos morrer sozinhos"... {{/if}}
+{{if _.serialkiller}}"eles são um serial killer necrófilo"... {{/if}}
+{{if _.catmilk}}"eu sei que gatos não digerem leite"... {{/if}}
 {{if _.pokemon}}uma paródia musical que vai me fazer quebrar de rir... {{/if}}
 
 h: eu só quero viver minha vida
@@ -1388,11 +1388,11 @@ h: São... mais fotos de festas.
 
 `hong({mouth:"sad"});`
 
-h: Todo mundo parece tão feliz. Livres de preocupações. Livres de ansiedade.
+h: Todo mundo parece tão feliz. Livres de preocupações.
 
 `hong({mouth:"anger"});`
 
-h: Meu Deus, por que não posso ser como eles? Por que não posso ser *normal?*
+h: Que inferno... É só festa pra todo canto...
 
 `bb({eyes:"normal_right"});`
 
@@ -1439,7 +1439,7 @@ b: o
 
 `bb({eyes:"wat_2"});`
 
-b: o que?
+b: o que hablas?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
@@ -1479,11 +1479,11 @@ hong({body:"2_sammich_eaten", eyes:"0_lookaway", mouth:"0_chew1"})
 (...601)
 
 ```
-bb({body:"normal", eyes:"uncertain", mouth:"shut"});
+bb({body:"normal", eyes:"uncertain", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 0.5;
 ```
 
-b: ...
+b: Que assim seja né...
 
 ```
 bb({eyes:"normal_right"});

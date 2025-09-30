@@ -815,7 +815,7 @@ b: Bem, eu também te agradeço, por escutar o que digo pacientemente.
 
 `bb({ eyes:"closed" });`
 
-b: Seu serzinho mamífero sem pelo.
+b: Seu humano bobinho.
 
 (#act4_something_else)
 
@@ -836,7 +836,7 @@ h: Qual é, sou apenas um garoto afeminado autista e vulnerável enquanto você 
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Na real, não responda isso.
+h: Na real, não responda isso, nós sabemos a resposta.
 
 (#act4_something_else)
 
