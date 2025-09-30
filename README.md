@@ -1,4 +1,4 @@
-![](https://ncase.me/anxiety/sharing/banner.png)
+![](https://ncase.me/anxiety/sharing/anim.gif)
 
 
 ---
