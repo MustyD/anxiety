@@ -51,7 +51,7 @@ Programação Extra por [Spacie](https://spacie.me)
 
 **Efeitos Sonoros em FreeSound.org (Creative Commons)**
 
-* [Intro Music](https://freesound.org/people/analogchill/sounds/35716/) por Indie Stone (Project Zomboid)
+* [Intro Music](https://projectzomboid.com/blog/about-us/) por Indie Stone (Project Zomboid)
 * [Dramatic Hit](https://freesound.org/people/qubodup/sounds/222517/) por qubodup
 * [Nature Ambience](https://freesound.org/people/michorvath/sounds/427601/) por michorvath
 * [Grass Footstep 1](https://freesound.org/people/morganpurkis/sounds/384651/) por morganpurkis
@@ -63,7 +63,7 @@ Programação Extra por [Spacie](https://spacie.me)
 * [Ball Bounce](https://freesound.org/people/13GPanska_Lakota_Jan/sounds/378355/) por 13GPanska\_Lakota\_Jan
 * [Faucet](https://freesound.org/people/calivintage/sounds/95709/) por calivintage
 * [Pop](https://freesound.org/people/onikage22/sounds/240566/) por onikage22
-* [Rage Scream](https://freesound.org/people/cdrk/sounds/21324/) por ID Software (Doom 1/2)
+* [Rage Scream](https://www.idsoftware.com/en) por ID Software (Doom 1/2)
 * [Dirty Explosion](https://freesound.org/people/Link-Boy/sounds/156615/) por Link-Boy
 * [Clothes Rustle](https://freesound.org/people/leonelmail/sounds/427866/) por leonelmail
 * [Typewriter](https://freesound.org/people/tams_kp/sounds/43559/) por tams\_kp
