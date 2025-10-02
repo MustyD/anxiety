@@ -271,20 +271,20 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Puxe o computador aí e trabalhe em alguma coisa agora mesmo!
+b: Puxe o computador aí e faz aqueles trabalhos de Portugol agora mesmo!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Hum, eu preferiria não derrubar migalhas no meu teclad--
+h: Não, que tal TU fazer?!
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Se não estivermos contribuindo ao corpo-da-sociedade, então nós somos um parasita-da-sociedade!
+b: Se não estivermos contribuindo nas aulas de Algorítmos e Programação, então nós somos um parasita da sociedade!
 
-b: O corpo-da-sociedade irá ao doutor-da-sociedade para medicação exterminadora de parasitas-da-sociedade e então a gente vai--
+b: A sociedade irá ao médico para medicação contra parasitas da sociedade e então a gente vai--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -1009,7 +1009,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Somos a razão pela qual o fascismo irá se erguer sobre as ruínas da democracia!
+b: Somos a razão pela qual o Evento Knox vai se espalhar, matando todo mundo!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1295,11 +1295,11 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: Eles vão te prender em um poço e te forçar a comer pão branco para te engordar, e então vestir a sua pele como um macacão!
+b: Eles vão te prender em um poço e te forçar a comer pão branco para te engordar, e então te transformar num escravo sexual com corpo de HENTAI!
 {{/if}}
 
 {{if _.parasite}}
-b: Eles vão te cortar com um machete e dizer "VOCÊ DEVERIA TER PRODUZIDO MAIS, PARASITA"
+b: Eles vão te forçar a decorar aqueles vetores, vão te matar e comer! E *não tô falando NESSE sentido*!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
@@ -1342,13 +1342,13 @@ h: estou ficando doente com este jogo.
 
 h:
 {{if _.fifteencigs}}"solidão vai nos matar"... {{/if}}
-{{if _.parasite}}"somos um parasita-da-sociedade"... {{/if}}
+{{if _.parasite}}"somos um parasita da sociedade"... {{/if}}
 {{if _.whitebread}}"não coma tal coisa, vai nos matar"... {{/if}}
 {{if _.subtweet}}"eles estão falando pelas nossas costas"... {{/if}}
 {{if _.badnews}}"Armageddon is upon us"... {{/if}}
 {{if _.hookuphole}}"vamos morrer sozinhos"... {{/if}}
-{{if _.serialkiller}}"eles são um serial killer necrófilo"... {{/if}}
-{{if _.catmilk}}"eu sei que gatos não digerem leite"... {{/if}}
+{{if _.serialkiller}}"eles são um serial killer pervertido"... {{/if}}
+{{if _.catmilk}}eu sei que gatos não digerem leite... {{/if}}
 {{if _.pokemon}}uma paródia musical que vai me fazer quebrar de rir... {{/if}}
 
 h: eu só quero viver minha vida
@@ -1610,7 +1610,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Entregue punição ao celular! Destrua-o! Mate-o!
+b: Entregue punição ao celular! Destrua-o! PIPOQUE-O!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1619,7 +1619,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE--
+b: ESBAGAÇA ESSA MERDA DE SAMSUNG NO CHÃO!
 
 (#act1j)
 
@@ -1635,7 +1635,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Faça como um tatu-bola! Se englobe em auto-defesa!
+b: Pra você não ir Postal, se encolha numa bola e chore!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1644,7 +1644,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHOR--
+b: "SQUIRM AND SCREAM AND CRY OUT SLOWLY, YOU CANNOT HIDE FROM YOUR DEMISE!"
 
 (#act1j)
 
