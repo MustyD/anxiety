@@ -111,16 +111,8 @@ Programação Extra por [Spacie](https://spacie.me)
 * O Som "Hadouken!" © Capcom. Eu o parodiei durante o Golpe Especial do Lobo da Ansiedade.
 
 
-**Bibliotecas de Código Aberto**
-
-* [Howler.js](https://howlerjs.com/) por James Simpsson for sounds
-* [MinPubSub](https://github.com/daniellmb/MinPubSub) por Daniel Lamb for pub/sub
-* [RSVP.js](https://github.com/tildeio/rsvp.js/) por Tilde for promises
-* [Simple Sharing Buttons](https://simplesharingbuttons.com/) por Stefan Bohacek
-* [Ceaser](https://matthewlein.com/tools/ceaser) por Matthew Lein for CSS animation
-
 **Agradecimento à todos os meus Playtesters!**
 
-...Eu fui meu Playtester.
+Tiele Gomes, Gabriel Ferneandes (<3) e só por enquanto
 
 
