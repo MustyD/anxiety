@@ -1506,15 +1506,15 @@ h: Então, alguma outra coisa pesando no seu coração?
 {{/if}}
 
 {{if _.a4_talked_about_harm!=true}}
-[Eu tenho medo que seremos machucados.](#act4_harm)
+[Eu tenho medo de morrermos de forma cruel.](#act4_harm)
 {{/if}}
 
 {{if _.a4_talked_about_alone!=true}}
-[Eu tenho medo de ficarmos na solidão.](#act4_alone)
+[Eu tenho medo de morrermos sozinhos.](#act4_alone)
 {{/if}}
 
 {{if _.a4_talked_about_bad!=true}}
-[Eu tenho medo que somos alguém ruim](#act4_bad)
+[Eu tenho medo de morrermos pelos outros.](#act4_bad)
 {{/if}}
 
 [Nem, tudo suave por agora.](#act4c_prelude)
@@ -1593,20 +1593,20 @@ music('campus', {volume:0.5, fade:1});
 
 `publish("act4", ["alshire", 0]);`
 
-a: V-v-você se importaria se eu almoçasse contigo?
+a: Ei Danton, como vai?
 
 `publish("act4", ["alshire", 1]);`
 
 {{if _.TOP_FEAR=="harm"}}
-s: *Aquilo* é seu crush? Aquele moleque ali?
+s: *Aquele* é o Danton? Aquele pirralho ali?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Perguntar pro crush se você pode almoçar com eles? Você sabe o quanto de *desespero* isso transmite?!
+s: Perguntar pra um adolescente se você pode conversar com eles? Você sabe o quanto de *inferioridade* isso transmite?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: *Aquele* é seu crush? Interrompemos sua paz e tranquilidade! Somos tão ruins!
+s: *Aquele* é o Danton? Interrompemos sua paz e tranquilidade! Somos tão ruins!
 {{/if}}
 
 `publish("act4", ["alshire", 2]);`
@@ -1617,9 +1617,9 @@ a: E- eu quero dizer- não, não tem problema se não posso, eu só...
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h2"`
 
-[Espere, não te vi naquela festa?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
+[Espere Katiele, você não tava naquela festa?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Sim, claro! Chega aí.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Claro, Katiele! Chega aí.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
 [Desculpe, preciso de espaço no momento.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
@@ -1632,11 +1632,11 @@ h2: Sim! Você estava no sofá, na primeira festa que eu fui...
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
-h2: Onde eu tive um ataque de pânico e soquei a anfitriã.
+h2: Onde eu tive um ataque de pânico e lasquei uma lapada na Hunter...
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
-h2:  Onde eu tive um ataque de pânico e saí chorando.
+h2:  Onde eu tive um ataque de pânico e larguei correndo.
 {{/if}}
 
 ```
@@ -1644,7 +1644,7 @@ publish("act4", ["hong_to_alshire", 0]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Espere aí humano, talvez estejamos deixando-os desconfortáveis.
+b: Espere aí, Dan, a Katiele aparentemente também tem ansiedade, ah é, tu não consegue enxergar -_- ...
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
@@ -1663,15 +1663,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: AHHHHH EU SABIA! ELES SÃO que nem o Eric Harrison, vão fazer um massacre aqui!
+s: AHHHHH EU SABIA! ELES SÃO QUE NEM O ERIC HARRISON, E VÃO FAZER UM MASSACRE AQUI!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: AAHHH A PRIMEIRA IMPRESSÃO QUE FIZEMOS FOI "PRESENCIOU MEU TRAUMA"! ISSO SIGNIFICA QUE ELES NOS ODEIAM!
+s: AAAAAHHHHH ELE NOS FLAGROU, AGORA ELE SABE QUE VOCÊ TAVA OBSERVANDO ELE!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AAAHHH FIZEMOS ALGUÉM LEMBRAR DE UM EVENTO TRAUMÁTICO. NOSSA MERA PRESENÇA MACHUCA AQUELES EM NOSSA VOLTA.
+s: AAAHHH FIZEMOS ALGUÉM LEMBRAR DE UM EVENTO TRAUMÁTICO. SOMOS O *PTSD* ENCARNADO!
 {{/if}}
 
 (#act4e)
@@ -1683,18 +1683,18 @@ publish("act4", ["hong_to_alshire", 5]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Espere aí humano, eles aparentam estar desconfortáveis.
+b: Espere aí Danton, o gato parece tar metendo medo nela, vai com calma
 
 ```
 publish("act4", ["hong_to_alshire", 6]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, sem pressão aí!
+h2: Ah, sem pressão!
 
 `publish("act4", ["hong_to_alshire", 4]);`
 
-h2: Só estou dizendo, você pode comer aqui se quiser.
+h2: Só estou dizendo, você pode vir conversar.
 
 ```
 publish("act4", ["hong_to_alshire", 5]);
@@ -1702,15 +1702,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: ELES ESTÃO SENDO AMIGÁVEIS *DEMAIS*! COMO A COBRA DO "ADÃO E EVA"!
+s: ELE ESTÁ SENDO AMIGÁVEL *DEMAIS*! COMO A COBRA DO "ADÃO E EVA"!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: ELES ESTÃO FINGINDO SER LEGAIS! NINGUÉM *REALMENTE* QUER QUE A GENTE CHEGUE PERTO!
+s: ELE SABE QUE NÓS O OBSERVAMOS! AGORA ELE SE SENTE O ÚNICO ESQUISITO DO IF!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AHHH SEMPRE FAZEMOS OS OUTROS SE SENTIREM ESTRANHOS! SOMOS UMA SUJEIRA SOBRE O PLANETA!
+s: AHHH SEMPRE FAZEMOS OS OUTROS SE SENTIREM ESTRANHOS! SOMOS UMA DESGRAÇA SOBRE O PLANETA!
 {{/if}}
 
 (#act4e)
@@ -1722,14 +1722,14 @@ publish("act4", ["hong_to_alshire", 9]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Espere aí humano, talvez estejamos deixando-os desconfortáveis.
+b: Espere aí Danton, o gato dela tá metendo medo a  fú.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, eu não quis ser rude!
+h2: (valeu.) Ah, eu não quis ser rude!
 
 `publish("act4", ["hong_to_alshire", 6]);`
 
@@ -1741,11 +1741,11 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: QUE PENSAMENTOS DEPRAVADOS ELES ESTÃO PROCESSANDO?! QUE ESCURIDÃO PREENCHE O CORAÇÃO DESSE PSICOPATA?!
+s: QUE PENSAMENTOS SÁDICOS E INSANOS ELES ESTÃO PROCESSANDO?! QUE ESCURIDÃO PREENCHE O CORAÇÃO DESSE PSICOPATA JUVENIL?!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: FOMOS REJEITADOS! NUNCA SEREMOS AMADOS!
+s: ELE SABE QUE ELE É INSTÁVEL, NÓS CRIAMOS UM PERIGO!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
@@ -1761,7 +1761,7 @@ Game.WORDS_HEIGHT_BOTTOM = 195;
 publish("act4", ["alshire", 6]);
 ```
 
-s: VAZA VAZA VAZA VAZA VAZA VAZA VAZA VAZA VAZA VAZA 
+s: VAI-TE EMBORA ANTES QUE DÊ MERDA!!!
 
 ```
 Game.clearText();
@@ -1788,7 +1788,7 @@ Game.WORDS_HEIGHT_BOTTOM = -1; /* reset */
 
 `publish("act4-jumpcut-hong");`
 
-h: Huh. Aquilo foi estranho. Me pergunto que que estava rolando na cabeça daquela pessoa.
+h: Huh. Aquilo foi estranho. Me pergunto que que estava rolando na cabeça da Katiele.
 
 `publish("act4", ["hong_closer", 2]);`
 
@@ -1976,7 +1976,7 @@ b: AAAAAH! AINDA ESTAMOS COMENDO SOZINHOS, NINGUÉM NOS AMA! AAAAAH!
 {{/if}}
 
 {{if _.parasite}}
-b: AAAAAH! VOCÊ AINDA NÃO ESTÁ SENDO PRODUZIDO ENQUANTO COME, SOMOS PESSOAS HORRÍVEIS! AAAAAH!
+b: AAAAAH! VOCÊ AINDA NÃO ESTÁ ESTUDANDO PORTUGOL ENQUANTO COME, SOMOS PESSOAS HORRÍVEIS! AAAAAH!
 {{/if}}
 
 {{if _.whitebread}}
