@@ -553,7 +553,7 @@ b: Humano, precisamos fugir destes zumbis-do-prazer antes que nos tornemos um de
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zumbis";
+_.a2_hoodie_callback = "Project Zomboid";
 ```
 
 (#act2c)
@@ -621,7 +621,7 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Ah que bom, humano! Acho que você pode me ouvir denovo!
+b: Ah que bom, Dan! Acho que você pode me ouvir denovo!
 
 `bb({eyes:"closed", body:"point"})`
 
@@ -766,7 +766,7 @@ b: CURTIIDAS. CUUUUURTIDAS.
 
 `bb({body:"scream_a_1"})`
 
-b: E então eles iram TE MORDER e transformar você em um ACÉFALO "DOS BROTHER" ou numa VAGABUNDA SEM CONSIDERAÇÃO!
+b: E então eles iram TE MORDER e transformar você em um ACÉFALO "DE CRIA" ou num OTAKU FEDIDO!
 
 `_.a2_attack_3 = "bad";`
 
@@ -862,7 +862,7 @@ b: Não estou sendo irracional. Tem gente que *realmente* taca "boa noite cinder
 
 `bb({eyes:"suspect"})`
 
-b: Humano, sua cabeça dói? Seus membros estão dormentes? Eu acho que estamos morrendo.
+b: Danton, sua cabeça dói? Seus membros estão dormentes? Eu acho que estamos morrendo.
 
 `bb({body:"scream_a_1"})`
 
@@ -1160,7 +1160,7 @@ b: Bem, talvez você *NÃO DEVERIA* SE LIVRAR DE MIM
 
 `bb({body:"cry_2"});`
 
-b: Como você acha que *EU* me sinto, humano?!
+b: Como você acha que *EU* me sinto, caralho?!
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
@@ -1178,7 +1178,7 @@ b: O que estou fazendo de errado?!
 
 `bb({body:"cry_2"});`
 
-b: Eu *sei* que eu não estou fazendo um bom trabalho. Mas estou *tentando*, humano!
+b: Eu *sei* que eu não estou fazendo um bom trabalho. Mas estou *tentando*, cara!
 
 `bb({body:"cry_3"});`
 
@@ -1194,7 +1194,7 @@ b: Eu simplesmente... desejo que você seja paciente comigo.
 
 `bb({eyes:"cry_r_3"});`
 
-b: Só quero que você sente comigo por um tempo, ao invés de dar as costas para mim e--
+b: Só quero que você sente comigo por um tempo, ao invés de dar as costas para mim e o escambau...
 
 ```
 bb({eyes:"cry_r_4"});
@@ -1288,7 +1288,7 @@ publish("act2",["party_hunter",9]);
 publish("act2",["party_hong",20]);
 ```
 
-h2: mas minha o Zenith...
+h2: mas o Zenith...
 
 ```
 publish("act2",["party_hunter",2]);
@@ -1384,11 +1384,11 @@ hong({body:"forward", mouth:"forward"});
 bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 ```
 
-h: Mmm, que gostinho mais delicado!
+h: Mmm, que gostinho delicado da porra!
 
 h: Um sabor da cabeça-aos-pés de "cale essa mente aí," com um toque de "nunca sinta nada denovo"!
 
-b: Isso é ruim, humano. Isso é muito, muito ruim.
+b: Isso é ruim, mano. Isso é muito, muito ruim.
 
 [Isso é *exatamente* como vício começa, é assim que você morre.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1432,7 +1432,7 @@ bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 
 h: Delicioso, *e* mais barato que a terapia!
 
-b: HUMANO POR FAVOR PARE
+b: CARA POR FAVOR PARE
 
 h: Hehehe!
 
@@ -1667,7 +1667,7 @@ h2: não não, eu só, hã, tenho que correr na maratona. bem rápido.
 
 r: Chega aí próximo fim de semana, delícia. Irei misturar algo ainda mais forte só pra você, SPANK!
 
-h2: ok obrigado tenho que vazar vazando vazei
+h2: ok obrigado tenho que sair vazano vazei
 
 r: Eu e você, jovem, vamos mostrar para aquele furry viado quem manda!
 
