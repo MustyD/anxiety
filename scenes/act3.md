@@ -356,7 +356,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 h: Você tentou essa besteira de "me mostrar", também.
 
-b: Hong... N-não...
+b: Danton. cara, tu toma remédio tarja preta, beber essa merda poderia ter te matado antes...
 
 `hong({ eyes:"look_right" });`
 
@@ -420,7 +420,7 @@ h: Com Licença,  *agradecimento?!*
 
 b: Isso aqui é exatamente o porquê de *eu existir*! Devido ao fato de que não dá para confiar em humanos para se manterem seguros!
 
-b: Estive tentando proteger esse seu rego burro minha vida inteira! É isso que eu recebo?!
+b: Estive tentando proteger esse seu rego burro minha vida inteira! E é isso que eu recebo?!
 
 ```
 hong({body:"drink"});
@@ -558,7 +558,7 @@ bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: NÃO, ESPERE, A GARRAF-
+b: DEIXA ESSA GARRAFA LONGE PELO MENOS!
 
 (#act3_bad_3)
 
@@ -572,7 +572,7 @@ b: Você *está* se colocando em perigo. Seus supostos "amigos" *estão* apenas 
 
 `bb({ eyes:"sad" });`
 
-b: Então por favor, humano... por que você não acredita em mim?!
+b: Então por favor, Danton... por que você não acredita em mim?!
 
 h: Porque você nunca acreditou em *mim*.
 
@@ -585,7 +585,7 @@ h: Porque você nunca acreditou em *mim*.
 
 b: Outros lobos-guardiões tem humanos que tiram tempo para treiná-los com paciência, para *aprender* a trabalhar juntos.
 
-b: Já você, você é um humano *cruel pra caralho*, que só grita e exige que eu faça tudo que tu quer! eu espero que esse seja seu fim!
+b: Já você, você é um humano *cruel pra caralho*, que só grita e exige que eu fique quieto! Eu espero que esse seja seu fim!
 
 `bb({ eyes:"normal" });`
 
@@ -628,7 +628,7 @@ h: Todos os sábios da nossa era concordam: emoções negativas são *ruins!*
 
 h: Duh! Por isso que elas se chamam *negativas*!
 
-b: humano... por favor...
+b: Porra, Danton, pensa direito, carai'!
 
 `hong({ eyes:"normal" });`
 
@@ -655,7 +655,7 @@ bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NÃO. DIGA.
+h: NÃO ME DIGA!
 
 `hong({ body:"yell_1" });`
 
@@ -679,7 +679,7 @@ h: ...você está pedindo *desculpas.*
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
-h: ...
+h: hm...
 
 h: Desculpas pelo *quê*?
 
@@ -900,11 +900,11 @@ h2: Estou com medo, e pra caralho.
 
 `publish('hong-next')`
 
-h2: E não há problema nisso, eu tinha razão.
+h2: E não há problema nisso, lá no fundo eu tava certo, tu é uma babaca anti-furry que me colocou em perigo.
 
 `publish('hong-next')`
 
-h2: Vai tomar no teu cu.
+h2: Vai tomar no teu cu, Hunter, vai se foder.
 
 `publish('hong-next')`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Aquilo foi a porta trancando?
+r: Aquilo foi a porta trancando? Ih rapaz, agora fudeu.
 
 ```
 Game.clearAll();
@@ -1063,7 +1063,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: não...
+b: Danton...
 
 (...501)
 
@@ -1082,7 +1082,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: não não não
+b: Tira a porra da garrafa primeiro.
 
 (...501)
 
@@ -1150,7 +1150,7 @@ Game.FORCE_TEXT_Y = 325;
 Game.OVERRIDE_FONT_SIZE = 50;
 ```
 
-b: NÃO!
+b: PORRA O QUE EU FALEI?!
 
 (...400)
 
